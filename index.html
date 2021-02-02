@@ -19,18 +19,71 @@
     <div class="row">
       <!-- Column 1 -->
       <div class="col-md-2">
-        <!-- Collapsible Panels modified from https://bootstrapdocs.com/v3.3.2/docs/javascript/#collapse-example-accordion -->
         <div class="panel-group" id="column1" role="tablist" aria-multiselectable="true">
-          <div id="github" class="panel panel-default">
+          <div id="general" class="panel panel-primary">
             <div class="panel-heading">
               <div data-toggle="collapse" data-parent="#column1">
+                General
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://mail.google.com/mail/u/0/#inbox">Gmail - Storable</a></dt>
+                  <dt><a href="https://mail.google.com/mail/u/1/#inbox">Gmail - Work</a></dt>
+                  <dt><a href="https://keep.google.com/u/0">Keep</a></dt>
+                  <dt><a href="https://calendar.google.com/calendar/u/0/r/week?tab=mc&pli=1">Calendar</a></dt>
+                  <dt><a href="https://trello.com/">Trello</a></dt>
+                  <dt><a href="https://medium.com/">Medium</a></dt>
+                  <dt><a href="https://news.google.com/nwshp?hl=en&tab=rn&authuser=0">News</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div id="hr_n_things" class="panel panel-primary">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column1">
+                HR n Things
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt>
+                    <a href="https://workforcenow.adp.com/theme/index.html">ADP</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://my.adp.com/static/redbox/5.5.150/#/dashboard">MyADP</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://www.mykplan.adp.com/ParticipantSecure_Net/Enroll_Start.aspx">401k</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://my.healthequity.com/Refresh/Dashboard">HSA</a>
+                  </dt>
+                  <dt><a href="https://storable.pingboard.com/org_chart?center=25954976">Pingboard</a></dt>
+                  <dt><a href="https://storable.bucketlist.org/app/#/">Bucketlist</a></dt>
+                  <dt><a href="https://app.getworkify.com/my-workify">Workify</a></dt>
+                  <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/Warehouse/overview">The Warehouse</a></dt>
+                </p>
+                  <dt><a href="https://docs.google.com/drawings/d/1OYq1sWQCmja2mSzpbmbguqhLmvdPutahEYS02Z5PvIs/edit">Who are you people!?</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Column 2 -->
+      <div class="col-md-2">
+        <!-- Collapsible Panels modified from https://bootstrapdocs.com/v3.3.2/docs/javascript/#collapse-example-accordion -->
+        <div class="panel-group" id="column2" role="tablist" aria-multiselectable="true">
+          <div id="github" class="panel panel-default">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column2">
                 GitHub
               </div>
             </div>
             <div class="panel-collapse collapse in">
               <div class="panel-body">
                 <dl>
-                  <dt><a href="https://github.com/rednovalabs">GitHub repos</a></dt>
+                  <dt>
+                    <a href="https://github.com/rednovalabs">GitHub repos</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://github.com/issues?q=is%3Aopen+is%3Apr+archived%3Afalse+org%3Arednovalabs+label%3A%22PR+-+Needs+Review%22">PRs</a>
+                  </dt>
                   <dt><a href="https://github.com/rednovalabs/fms">FMS</a></dt>
                   <dt><a href="https://github.com/rednovalabs/storedge-up">UP</a></dt>
                   <dt><a href="https://gitlab.com/storable/storedge/er">GitLab er</a></dt>
@@ -47,7 +100,7 @@
           </div>
           <div id="styleguides" class="panel panel-default">
             <div class="panel-heading">
-              <div data-toggle="collapse" data-parent="#column1">
+              <div data-toggle="collapse" data-parent="#column2">
                 Style Guides
               </div>
             </div>
@@ -80,56 +133,6 @@
                     &nbsp;&nbsp;/&nbsp;
                     <a href="http://www.scalatest.org/user_guide/sharing_tests">Scala Traits</a>
                   </dt>
-                </dl>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Column 2 -->
-      <div class="col-md-2">
-        <div class="panel-group" id="column2" role="tablist" aria-multiselectable="true">
-          <div id="general" class="panel panel-primary">
-            <div class="panel-heading">
-              <div data-toggle="collapse" data-parent="#column2">
-                General
-              </div>
-            </div>
-            <div class="panel-collapse collapse in">
-              <div class="panel-body">
-                <dl>
-                  <dt><a href="https://mail.google.com/mail/u/0/#inbox">Gmail - Storable</a></dt>
-                  <dt><a href="https://mail.google.com/mail/u/1/#inbox">Gmail - Work</a></dt>
-                  <dt><a href="https://keep.google.com/u/0">Keep</a></dt>
-                  <dt><a href="https://calendar.google.com/calendar/u/0/r/week?tab=mc&pli=1">Calendar</a></dt>
-                  <dt><a href="https://trello.com/">Trello</a></dt>
-                  <dt><a href="https://medium.com/">Medium</a></dt>
-                  <dt><a href="https://news.google.com/nwshp?hl=en&tab=rn&authuser=0">News</a></dt>
-                </dl>
-              </div>
-            </div>
-          </div>
-          <div id="hr_n_things" class="panel panel-primary">
-            <div class="panel-heading">
-              <div data-toggle="collapse" data-parent="#column2">
-                HR n Things
-              </div>
-            </div>
-            <div class="panel-collapse collapse in">
-              <div class="panel-body">
-                <dl>
-                  <dt>
-                    <a href="https://workforcenow.adp.com/theme/index.html">ADP</a>&nbsp;&nbsp;/&nbsp;
-                    <a href="https://my.adp.com/static/redbox/5.5.150/#/dashboard">MyADP</a>&nbsp;&nbsp;/&nbsp;
-                    <a href="https://www.mykplan.adp.com/ParticipantSecure_Net/Enroll_Start.aspx">401k</a>&nbsp;&nbsp;/&nbsp;
-                    <a href="https://my.healthequity.com/Refresh/Dashboard">HSA</a>
-                  </dt>
-                  <dt><a href="https://storable.pingboard.com/org_chart?center=25954976">Pingboard</a></dt>
-                  <dt><a href="https://storable.bucketlist.org/app/#/">Bucketlist</a></dt>
-                  <dt><a href="https://app.getworkify.com/my-workify">Workify</a></dt>
-                  <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/Warehouse/overview">The Warehouse</a></dt>
-                </p>
-                  <dt><a href="https://docs.google.com/drawings/d/1OYq1sWQCmja2mSzpbmbguqhLmvdPutahEYS02Z5PvIs/edit">Who are you people!?</a></dt>
                 </dl>
               </div>
             </div>
