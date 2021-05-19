@@ -1,3 +1,5 @@
 _site/
 .vscode/
 Gemfile.lock
+dump.rdb
+.DS_Store
