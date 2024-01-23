@@ -1,6 +1,6 @@
 # Bookmarks
 
-### [Link to site](https://austin-kerr.github.io/bookmarks/)
+### [Link to site](https://austin-leligdon.github.io/bookmarks/)
 ### [Favicon Generation](https://realfavicongenerator.net/)
 
 ### To run locally:
